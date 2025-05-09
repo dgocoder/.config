@@ -24,3 +24,4 @@ vim.opt.updatetime = 50
 vim.o.autoread = true
 vim.opt.exrc = true
 vim.opt.secure = true
+vim.api.nvim_set_option("clipboard", "unnamed")
