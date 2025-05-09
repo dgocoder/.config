@@ -9,6 +9,9 @@ return {
     { "<C-n>",      "<cmd>NvimTreeToggle<cr>",   desc = "Find file in filetree" },
   },
   opts = {
+    update_focused_file = {
+      enable = true,
+    },
     filters = {
       custom = { ".git", "node_modules", ".vscode" },
       dotfiles = false,
